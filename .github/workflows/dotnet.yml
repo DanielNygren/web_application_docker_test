@@ -34,7 +34,7 @@ jobs:
       uses: docker/build-push-action@v2.9.0
       with:
         push: true
-        tags: production/webapplicationdockertest
+        tags: web
         
         # Runs a single command using the runners shell
     - name: Run a one-line script
