@@ -34,5 +34,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: devopsdocker/dockertest
+        tags: learnetdaniel/dockertest
         
