@@ -5,7 +5,7 @@ WORKDIR /app
 EXPOSE 8080
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
-WORKDIR /app
+WORKDIR /src
 COPY ["web_application_docker_test/web_application_docker_test.csproj", "web_application_docker_test/"]
 RUN dotnet restore "web_application_docker_test/web_application_docker_test.csproj"
 COPY . .
